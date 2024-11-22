@@ -3,93 +3,112 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
 }
 
 /* Header */
 header {
   width: 100%;
-  display: flex;
-  justify-content: center;
   padding: 25px 0px;
+  position: fixed;
 }
-nav {
-  width: 100%;
-  max-width: 1200px;
+
+nav > ul {
   display: flex;
   justify-content: center;
-}
-ul {
-  display: flex;
   gap: 20px;
 }
-ul li {
+
+nav > ul > li {
   list-style: none;
 }
-ul li a {
+
+nav > ul > li > a {
   text-decoration: none;
   color: #3b3b3b;
   transition: color 0.5s;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 18px;
 }
-ul > li:hover a {
-  color: blue;
+
+a:hover {
+  color: #2f55d4;
 }
 
 /* Hero Section */
 .hero-section {
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  background-image: url("asset/images/bg01.png");
+  background-size: cover;
+  background-position: 10%;
+  max-width: 100%;
+  background-repeat: repeat;
 }
+
 .container {
   width: 100%;
-  max-width: 1200px;
-}
-.row {
-  width: 100%;
-  display: flex;
-}
-.col-1,
-.col-2 {
-  width: 50%;
-}
-.col-2 > img {
-  width: 100%;
+  margin: 50px;
 }
 
-.col-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.col-1 h1 {
-  font-size: 40px;
+.about-me {
+  margin-top: 150px;
 }
 
-.col-1 p {
+.title-name {
+  color: #2f55d4;
+  font-size: 50px;
+}
+
+.title-description {
   margin-top: 15px;
-  margin-bottom: 30px;
+  font-size: 18px;
 }
 
-.text-blue {
-  color: blue;
-}
-.text-gray {
-  color: gray;
+.btn-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
 }
 
-.btn-porto {
-  background-color: blue;
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px;
+.btn {
+  padding: 10px;
+  width: 150px;
   border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
 }
+
+.btn-portofolio {
+  background-color: #2f55d4;
+  color: #fff;
+  transition: background-color 0.5s;
+}
+
+.btn-portofolio:hover {
+  background-color: #fff;
+  color: #2643a1;
+  border: 1px solid #2f55d4;
+}
+
 .btn-hire {
-  color: blue;
-  border: 2px solid blue;
-  border-radius: 10px;
-  padding: 8px 15px;
-  text-decoration: none;
+  background-color: #fff;
+  color: #2f55d4;
+  border: 1px solid #2f55d4;
+  transition: background-color 0.5s;
 }
+
+.btn-hire:hover {
+  background-color: #2f55d4;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
 /* End Hero Section */
