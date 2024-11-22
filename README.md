@@ -8,6 +8,8 @@ Simple landing page with personal information
 
 ## Note
 - File and structure added in project
+- Hero section finished
+- About me section finished
 
 
 ## Rules Coding
