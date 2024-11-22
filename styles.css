@@ -36,7 +36,7 @@ nav > ul > li > a {
   font-size: 18px;
 }
 
-a:hover {
+nav > ul > li > a:hover {
   color: #2f55d4;
 }
 
@@ -53,7 +53,7 @@ a:hover {
   background-repeat: repeat;
 }
 
-.container {
+.hero-section .container {
   width: 100%;
   margin: 50px;
 }
@@ -86,29 +86,92 @@ a:hover {
   text-decoration: none;
 }
 
-.btn-portofolio {
+.btn-primary {
   background-color: #2f55d4;
   color: #fff;
   transition: background-color 0.5s;
 }
 
-.btn-portofolio:hover {
+.btn-primary:hover {
   background-color: #fff;
   color: #2643a1;
   border: 1px solid #2f55d4;
 }
 
-.btn-hire {
+.btn-secondary {
   background-color: #fff;
   color: #2f55d4;
   border: 1px solid #2f55d4;
   transition: background-color 0.5s;
 }
 
-.btn-hire:hover {
+.btn-secondary:hover {
   background-color: #2f55d4;
   color: #fff;
   border: 1px solid #fff;
 }
 
 /* End Hero Section */
+
+/* About Section */
+
+.about-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.about-section .container {
+  width: 100%;
+  padding: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+}
+
+.about-title {
+  color: #2643a1;
+}
+
+.about-description {
+  font-style: italic;
+}
+
+.about-content {
+  margin: 20px 0px 10px 0px;
+  text-align: justify;
+}
+
+.content {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-bar {
+  margin: 10px;
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+.progress-bar-title {
+  color: #3b3b3b;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.progress-value {
+  background-color: #2643a1;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* End About Section */
