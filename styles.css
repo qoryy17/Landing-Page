@@ -117,7 +117,7 @@ nav > ul > li > a:hover {
 
 .about-section {
   width: 100%;
-  height: 100vh;
+  height: 55vh;
   background-color: #fff;
 }
 
@@ -145,12 +145,12 @@ nav > ul > li > a:hover {
 }
 
 .about-content {
-  margin: 20px 0px 10px 0px;
+  /* margin: 20px 0px 10px 0px; */
   text-align: justify;
 }
 
 .content {
-  margin: 30px;
+  /* margin: 30px; */
   display: flex;
   flex-direction: column;
 }
@@ -175,3 +175,36 @@ nav > ul > li > a:hover {
 }
 
 /* End About Section */
+
+/* Portofolio Section */
+.portofolio-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+.portofolio-section .container {
+  width: 100%;
+  padding: 50px;
+}
+.portofolio-title {
+  color: #2f55d4;
+  margin-bottom: 15px;
+}
+.text-blue {
+  color: #2f55d4;
+}
+
+.portofolio-image {
+  width: 100%;
+  padding: 10px;
+}
+
+.portofolio-button {
+  padding: 7px 20px;
+  margin: 10px;
+  border-color: #2f55d4;
+  border-radius: 10px;
+  color: #2f55d4;
+}
+
+/* End Portofolio Section */
