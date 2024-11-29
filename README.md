@@ -1,6 +1,6 @@
 ## Landing Page
 
-Simple landing page with personal information
+Simple landing page with personal information, this education project used for IT Club SMK Negeri 1 Beringin
 
 ## Author & Contribute
 - Qori Chairawan S.Kom
@@ -10,6 +10,8 @@ Simple landing page with personal information
 - File and structure added in project
 - Hero section finished
 - About me section finished
+- Portofolio section finished
+- Activity section finished
 
 
 ## Rules Coding
