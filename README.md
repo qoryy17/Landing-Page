@@ -12,6 +12,8 @@ Simple landing page with personal information, this education project used for I
 - About me section finished
 - Portofolio section finished
 - Activity section finished
+- Contact section finished
+- Responsive page finished
 
 
 ## Rules Coding
